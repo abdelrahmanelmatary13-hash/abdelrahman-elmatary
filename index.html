@@ -863,6 +863,9 @@ const countObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{
      requestAnimationFrame(tick);
    });
  }
+
+
+ 
 }),{threshold:.25});
 countObserver.observe(document.querySelector('.profile-card'));
 
